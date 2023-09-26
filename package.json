@@ -1,0 +1,23 @@
+{
+  "name": "laughing-carnival",
+  "version": "1.0.0",
+  "description": "The laughing-carnival npm module is a comprehensive collection of utility decorators designed to enhance the functionality and readability of TypeScript projects. Leveraging the power of TypeScript's decorator pattern, this module provides a set of versatile decorators that can be seamlessly integrated into your codebase.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amalu-sajeev-me/laughing-carnival.git"
+  },
+  "keywords": ["TypeScript", "decorator", "ts-decorator", "util-decorators"],
+  "author": "Amalu Sajeev",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
